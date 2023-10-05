@@ -1,0 +1,11 @@
+table{
+    border: #db1a8b;
+}
+thead, th{
+    border-bottom: 3px solid #3bc91f;
+    width: 200px;
+    height: 50px;
+}
+tfoot, td{
+    border-top: 3px solid #1f87b8;
+}
