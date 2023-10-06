@@ -10,9 +10,9 @@ body{
 }
 #page{
     max-width: 940px;
-    /* độ dài tối đa */
-    min-width: 720px;
     /* độ rộng tối đa */
+    min-width: 720px;
+    /* độ dài tối đa */
     margin: 10px auto 10px auto;
     /* khoảng cách từ viền đến các phần tử xung quanh */
     border: 4px double #000;
@@ -24,13 +24,13 @@ body{
 }
 #logo{
     width: 150px;
-    /* chiều dài */
+    /* chiều rộng */
     margin: 10px auto 25px auto;
     /* khoảng cách từ viền tới các phần tử xung quanh*/
 }
 ul{
     width: 570px;
-    /* chiều dài */
+    /* chiều rộng */
     padding: 15px;
     /* khoảng cách từ viền đến nội dung */
     margin: 0px auto 0px auto;
