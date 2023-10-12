@@ -62,4 +62,11 @@ a{
 a:hover{
     color: blueviolet;
 }
+footer{
+    background-color: rgb(58, 56, 56);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
 
