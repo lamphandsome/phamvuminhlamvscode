@@ -11,13 +11,10 @@ li a{
     text-decoration: none;
     color: white;
 }
-header{
-    text-align: right;
-}
 section.phan2{
     float: left;
-    width: 800px;
-    height: 485px;
+    /* width: 800px; */width: 25%;
+    height: 450px;
     border: 1px solid white;
     padding: 0px 0px 0px 20px;
     border-radius: 20px;
@@ -30,7 +27,7 @@ section.phan3{
     padding: 0px 0px 0px 20px;
     border-radius: 20px;
     background-color: rgb(156, 145, 145);
-    width: 900px;
+    /* width: 900px; */width: 65%;
     margin-left: 20px;
 }
 h2{
@@ -45,5 +42,11 @@ footer{
     background-color:#383636;
     text-align: center;
     clear: both;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;    
+    width: 93%;
+}
+header nav ul{
+    list-style: none;
+    display:flex;
+    justify-content:flex-end;
 }
