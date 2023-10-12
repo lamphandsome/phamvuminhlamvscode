@@ -20,7 +20,8 @@ li a {
 section.p1{
     background-color: rgb(118, 219, 236);
     text-align: center;
-    height:100px;
+    height:85px;
+    padding: 10px;
 }
 button{
     background-color: red;
