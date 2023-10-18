@@ -1,14 +1,40 @@
+// var today = new Date();
+// var hourNow = today.getHours();
+// if(hourNow > 18){
+//     time = 'Good evening!';
+//     greeting = 'evening'
+// }else if(hourNow >12){
+//     time = "Good afternoon!";
+//     greeting = 'afternoon'
+// }else if(hourNow > 0){
+//     time = "Good morning!";
+//     greeting = 'morning'
+// } else{
+//     time = 'Welcome!';
+// }
+// document.write('<h3 id="vl">' + time + '</h3>');
+// var greetingElement = document.getElementById('greeting');
+// greetingElement.className = greeting;
+
+var greetingElement = document.getElementById('greeting');
+var greeting = '';
+var className = '';
 var today = new Date();
 var hourNow = today.getHours();
-var time;
 if(hourNow > 18){
-    time = 'Good evening!';
-}else if(hourNow >12){
-    time = "Good afternoon!";
-}else if(hourNow > 0){
-    time = "Good morning!";
-} else{
-    time = 'Welcome!';
-}
+         greeting = 'Good evening!';
+         className = 'evening'
+     }else if(hourNow >12){
+         greeting = "Good afternoon!";
+         className = 'afternoon'
+     }else if(hourNow > 0){
+         greeting = "Good morning!";
+         className = 'morning'
+    
+     }
+     greetingElement.textContent = greeting;
+     greetingElement.className = className;
 
-document.write('<h3>' + time + '</h3>');
+     var elTime = document.getElementById('time');
+     elTime.textContent = `Time: ${today}`;
+     elTime.className = 'time'
