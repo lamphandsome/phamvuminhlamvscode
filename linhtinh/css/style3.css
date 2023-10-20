@@ -3,7 +3,11 @@ body{
 }
 input {
     text-align: center;
+    width: 40px;
 }
 h1{
     text-align: center;
+}
+.banggia{
+    background-color:rgb(104, 168, 125) ;
 }
