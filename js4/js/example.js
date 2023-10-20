@@ -1,10 +1,10 @@
-var table = 3;
+var table = 2;
 var operator = 'addition'; 
 var i = 1;
 var msg = '';
 
 if (operator === 'addition') {
-    while (i < 11) {
+    while (i <11) {
         msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
         i++;
     }
