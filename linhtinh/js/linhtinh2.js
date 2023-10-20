@@ -23,13 +23,13 @@ function updateGreeting() {
     // let className;
 
     if (currentHour < 12) {
-        greeting = 'Chao buoi sang';
+        greeting = 'Chào buổi sáng';
         className = 'morning';
     } else if (currentHour < 18) {
-        greeting = 'Chao buoi chieu';
+        greeting = 'Chào buổi chiều';
         className = 'afternoon';
     } else {
-        greeting = 'Chao buoi toi';
+        greeting = 'Chào buổi tối';
         className = 'evening';
     }
 
