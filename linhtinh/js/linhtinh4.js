@@ -1,11 +1,11 @@
 var newel = document.createElement('li');
 var newtext = document.createTextNode('Nụ cười');
-var newel2 = document.createElement('li');
-var newtext2 = document.createTextNode('Cuteeee');
+newel.appendChild(newtext);
 var position = document.getElementsByTagName('ul')[0];
 position.insertBefore(newel, position.childNodes[0]);
 
-newel.appendChild(newtext);
+var newel2 = document.createElement('li');
+var newtext2 = document.createTextNode('Cuteeee');
 newel2.appendChild(newtext2);
 var position2 = document.getElementsByTagName('ul')[0];
 position2.appendChild(newel2);
