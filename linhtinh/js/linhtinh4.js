@@ -9,6 +9,7 @@ var newtext2 = document.createTextNode('Cuteeee');
 newel2.appendChild(newtext2);
 var position2 = document.getElementsByTagName('ul')[0];
 position2.appendChild(newel2);
+//appendchild la them vao cuoi cung cua the con
 
 var listItems = document.querySelectorAll('li');
 var i;
