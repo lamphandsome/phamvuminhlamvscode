@@ -16,3 +16,5 @@ var el = document.getElementById('username');
 var elMsg = document.getElementById('feedback');
 el.addEventListener('focus', tipUsername, false);
 el.addEventListener('blur', checkUsername, false);
+//addEventListner la mot phuong thuc cua doi tuong, co 3 tham so
+//'kieu cach su dung', 'ten ham xu ly su kien', 'true/false'
