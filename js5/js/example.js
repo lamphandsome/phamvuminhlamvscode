@@ -2,11 +2,13 @@ var list = document.getElementsByTagName("ul")[0];
 var newItemLast = document.createElement("li");
 var newTextLast = document.createTextNode("cream");
 newItemLast.appendChild(newTextLast);
+//appendChild: them vao cuoi cung cua the
 list.appendChild(newItemLast);
 
 var newItemFirst = document.createElement("li");
 var newTextFirst = document.createTextNode("kale");
 newItemFirst.appendChild(newTextFirst);
+//insertBefore: them vao truoc the
 list.insertBefore(newItemFirst, list.firstChild);
 
 

@@ -1,5 +1,5 @@
 var msg;
-var level = 2;
+var level = 4;
 switch(level){
     case 1:
         msg = 'Good luck on the first test';

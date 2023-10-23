@@ -1,7 +1,7 @@
-var i = 7;
+var i = 1;
 var msg = '';
-while(i<15){
-    msg+= i + 'x 5 = ' + (i*5) + '<br />';
+while(i<11){
+    msg+= i + 'x 9 = ' + (i*9) + '<br />';
     i++;
 }
 document.getElementById('answer').innerHTML = msg;
